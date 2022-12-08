@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;700;800&family=Montserrat:wght@700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+	display: none;
+}

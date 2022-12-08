@@ -1,9 +1,5 @@
-import Card from "../components/speakers/Card";
+const Speakers = () => {
+	return <section id="speakers">Speakers</section>;
+};
 
-export default function Speakers() {
-  return (
-    <div className="bg-blue-400 flex justify-center">
-      <Card />
-    </div>
-  );
-}
+export default Speakers;
