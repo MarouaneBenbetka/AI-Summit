@@ -1,12 +1,25 @@
+import {
+	Navbar,
+	Hero,
+	About,
+	Agenda,
+	Speakers,
+	Footer,
+} from "./sections/index";
+
 import "./App.css";
-import Speakers from "./sections/Speakers";
 
 function App() {
-  return (
-    <div className="h-screen">
-      <Speakers />
-    </div>
-  );
+	return (
+		<div className=" bg-dark h-screen text-white font-libre-franklin">
+			<Navbar />
+			<Hero />
+			<About />
+			<Agenda />
+			<Speakers />
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
