@@ -12,6 +12,14 @@ module.exports = {
 				"libre-franklin": ["'Libre Franklin', sans-serif"],
 			},
 		},
+		container: {
+			center: true,
+			padding:{
+				DEFAULT: '1rem',
+        		sm: '2rem',
+        		lg: '9%',
+			}
+		  },
 	},
 	plugins: [],
 };
