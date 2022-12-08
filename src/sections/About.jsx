@@ -2,7 +2,7 @@ import Ai_sumit_logo from "../assets/AISummit-logo1-white.svg";
 import soai_logo from "../assets/soai_logo_white.svg";
 import About_element from "../components/about/about_element";
 const About = () => {
-	return <section id="about" className="container h-screen mx-auto ">
+	return <section id="about" className="container h-screen mx-auto flex flex-col justify-center ">
 		<h1 className="py-3 text-4xl leading-10 font-extrabold text-center md:text-left">About</h1>
 		<div className="md:flex space-x-0  md:space-x-4 md:space-y-0 space-y-4	">
 		<About_element 
