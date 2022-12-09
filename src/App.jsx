@@ -11,7 +11,7 @@ import "./App.css";
 
 function App() {
 	return (
-		<div className=" bg-dark h-screen text-white font-libre-franklin">
+		<div className=" bg-dark text-white font-libre-franklin relative">
 			<Navbar />
 			<Hero />
 			<About />
