@@ -11,12 +11,12 @@ import "./App.css";
 
 function App() {
 	return (
-		<div className=" bg-dark  text-white font-libre-franklin">
+		<div className="bg-dark text-white font-libre-franklin">
 			<Navbar />
 			<Hero />
 			<About />
-			<Agenda />
 			<Speakers />
+			<Agenda />
 			<Footer />
 		</div>
 	);

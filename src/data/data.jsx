@@ -6,6 +6,8 @@ import {
 	FaYoutube,
 } from "react-icons/fa";
 
+import speaker_img from "../assets/cool_speaker.jpg";
+
 export const navLinks = [
 	{
 		id: "home",
