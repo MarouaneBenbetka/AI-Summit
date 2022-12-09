@@ -3,7 +3,7 @@ import { speakers } from "../data/data.jsx";
 
 const Speakers = () => {
 	return (
-		<div className="py-14 px-20 lg:px-[12vw]  flex flex-col font-libre-franklin">
+		<div className="py-14 px-8 sm:px-20 lg:px-[12vw]  flex flex-col font-libre-franklin">
 			<h1 className="text-4xl font-bold text-center md:text-left">
 				Speakers
 			</h1>
