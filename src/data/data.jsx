@@ -1,4 +1,5 @@
 import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import {RiInstagramFill} from 'react-icons/ri'
 
 export const navLinks = [
 	{

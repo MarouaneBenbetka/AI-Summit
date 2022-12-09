@@ -9,7 +9,7 @@ module.exports = {
 				dark: "#1B1E21",
 			},
 			fontFamily: {
-				"libre-franklin": ["'Libre Franklin', sans-serif"],
+				"libre-franklin": ['Libre Franklin', "sans-serif"],
 			},
 		},
 	},

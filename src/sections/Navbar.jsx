@@ -1,5 +1,12 @@
-const Navbar = () => {
-	return <nav>Navbar</nav>;
-};
+import React from 'react'
+import Nav from '../components/navbar'
 
-export default Navbar;
+const Navbar = () => {
+  return (
+	<div className='z-20 sticky top-0' >
+		<Nav />
+	</div>
+  )
+}
+
+export default Navbar
