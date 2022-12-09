@@ -3,7 +3,7 @@ import { speakers } from "../data/data.jsx";
 const Speakers = () => {
   return (
     <div className="p-14 flex flex-col font-libre-franklin">
-      <h1 className="text-4xl font-bold ">Speakers</h1>
+      <h1 className="text-4xl font-bold text-center md:text-left">Speakers</h1>
       <div className="flex justify-around w-full flex-wrap mt-2 ">
         {speakers.map((speaker) => (
           <div
