@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./src/**/*.{js,jsx}"],
+	content: ["./src/**/*.{js,jsx,html}"],
 	theme: {
 		extend: {
 			colors: {
@@ -14,12 +14,12 @@ module.exports = {
 		},
 		container: {
 			center: true,
-			padding:{
-				DEFAULT: '1rem',
-        		sm: '2rem',
-        		lg: '9%',
-			}
-		  },
+			padding: {
+				DEFAULT: "1rem",
+				sm: "2rem",
+				lg: "9%",
+			},
+		},
 	},
 	plugins: [],
 };

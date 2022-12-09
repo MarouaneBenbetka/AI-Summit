@@ -1,4 +1,10 @@
-import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import {
+	FaFacebook,
+	FaInstagram,
+	FaLinkedin,
+	FaTwitter,
+	FaYoutube,
+} from "react-icons/fa";
 
 export const navLinks = [
 	{
@@ -93,7 +99,7 @@ export const socials = [
 	{
 		name: "Instagram",
 		link: "https://www.instagram.com/soai_algiers",
-		icon: <RiInstagramFill size={30}></RiInstagramFill>,
+		icon: <FaInstagram size={30}></FaInstagram>,
 	},
 	{
 		name: "Linkedin",
