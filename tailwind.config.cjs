@@ -1,25 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./src/**/*.{js,jsx,html}"],
-	theme: {
-		extend: {
-			colors: {
-				red: "#CC2429",
-				blue: "#76CFCF",
-				dark: "#1B1E21",
-			},
-			fontFamily: {
-				"libre-franklin": ["'Libre Franklin', sans-serif"],
-			},
-		},
-		container: {
-			center: true,
-			padding: {
-				DEFAULT: "1rem",
-				sm: "2rem",
-				lg: "9%",
-			},
-		},
-	},
-	plugins: [],
+  content: ["./src/**/*.{js,jsx,html}"],
+  theme: {
+    extend: {
+      colors: {
+        red: "#CC2429",
+        blue: "#76CFCF",
+        dark: "#1B1E21",
+      },
+      fontFamily: {
+        "libre-franklin": ["'Libre Franklin', sans-serif"],
+      },
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "9%",
+      },
+    },
+  },
+  plugins: [],
 };
