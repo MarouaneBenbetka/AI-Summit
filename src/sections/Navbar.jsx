@@ -6,7 +6,6 @@ import "../styles/style.css";
 
 const Navbar = () => {
 	const [navMobile, setNavMobile] = useState(false);
-	const [isHover, setIsHover] = useState(null);
 	const [color, setColor] = useState(false);
 
 	const changeColor = () => {
@@ -35,8 +34,7 @@ const Navbar = () => {
 						<li key={index} className="relative">
 							<a
 								href={index === 0 ? "#" : `#${navLink.id}`}
-								className={"nav-link"}
-								onClick={() => setIsHover(navLink.id)}
+								className={"nav-link text-[18px]"}
 							>
 								{navLink.title}
 							</a>
@@ -50,7 +48,7 @@ const Navbar = () => {
 					</button>
 				</div>
 
-				<div className="block md:hidden relative">
+				<div className="block md:hidden relative cursor-pointer">
 					{navMobile ? (
 						<FaTimes
 							className="text-3xl"
@@ -67,10 +65,11 @@ const Navbar = () => {
 						<div className="absolute flex flex-col z-20 items-center gap-4 bg-black px-8 py-4 text-center top-10 right-0">
 							<ul className="flex flex-col gap-10">
 								{navLinks.map((navLink, index) => (
-									<li key={index}>
+									<li key={index} className="relative">
 										<a
 											href={`#${navLink.id}`}
 											onClick={() => setNavMobile(false)}
+											className="nav-link"
 										>
 											{navLink.title}
 										</a>
@@ -78,7 +77,7 @@ const Navbar = () => {
 								))}
 							</ul>
 							<div className="flex flex-col gap-4">
-								<button className="px-4 py-2 text-white bg-red rounded-[10px]  ">
+								<button className="mt-2 px-4 py-2 text-white bg-red rounded-[10px] font-semibold border-2 border-red hover:bg-dark hover:text-red transition ">
 									Register
 								</button>
 							</div>

@@ -6,57 +6,53 @@ import logoLine from "../assets/logoLine.png";
 
 import { motion } from "framer-motion";
 import { staggerContainer, textVariant } from "../styles/motion";
+import Particlesbg from "../components/hero/particules";
+import { loadFull } from "tsparticles";
+import { useCallback } from "react";
 
 const Hero = () => {
+	const particlesInit = useCallback(async (engine) => {
+		console.log(engine);
+		// you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+		// this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+		// starting from v2 you can add only the features you need reducing the bundle size
+		await loadFull(engine);
+	}, []);
+
+	const particlesLoaded = useCallback(async (container) => {
+		await console.log(container);
+	}, []);
+
 	return (
-		<motion.section
-			id="home"
-			className="h-[89vh] min-h-[500px] pl-4 sm:pl-8 pr-4 sm:pr-8 md:pr-0 relative"
-			variants={staggerContainer}
-			initial="hidden"
-			whileInView="show"
-			viewport={{ once: false, amount: 0.25 }}
-		>
-			<img
-				src={logoLine}
-				alt="lineImg"
-				className="absolute -top-[70px] left-0 z-0 w-[15rem] sm:w-[17rem] md:w-[15rem] lg:w-[17rem] h-[8rem] "
-			/>
-			<div className="flex items-center pt-20 sm:pt-[2rem] justify-center md:justify-between w-full">
-				<div>
-					<motion.h1
-						className=" text-[50px] sm:text-[70px] md:text-[60px] text-center md:text-left w-full lg:text-[60px] xl:text-[80px] font-bold font-libre-franklin"
-						variants={textVariant(1.1)}
-					>
-						Welcome!
-					</motion.h1>
-					<motion.p
-						className="text-[35px] sm:text-[50px] md:text-[30px] text-center md:text-left lg:text-[40px] xl:text-[60px]"
-						variants={textVariant(1.4)}
-					>
-						Show us your data & <br /> we'll show you your future
-					</motion.p>
+		<>
+			<Particlesbg init={particlesInit} loaded={particlesLoaded} />
+			<motion.section
+				id="home"
+				className="px-8 sm:px-20 lg:px-[9vw] h-[89vh] min-h-[500px]  relative flex items-center content-center"
+				variants={staggerContainer}
+				initial="hidden"
+				whileInView="show"
+				viewport={{ once: false, amount: 0.25 }}
+			>
+				<div className="flex items-center mb-14 w-full">
+					<div>
+						<motion.h1
+							className=" text-[50px]  md:text-[60px] text-center md:text-left w-full lg:text-[80px] xl:text-[94px] font-extrabold font-libre-franklin"
+							variants={textVariant(1.1)}
+						>
+							Welcome!
+						</motion.h1>
+						<motion.p
+							className="text-[35px] sm:text-[50px] md:text-[30px] text-center md:text-left lg:text-[32px] xl:text-[48px] leading-[60px]"
+							variants={textVariant(1.4)}
+						>
+							Show us your data & <br /> we'll show you your
+							future
+						</motion.p>
+					</div>
 				</div>
-				<motion.img
-					src={line}
-					alt="lineImg"
-					className="justify-content-self-end self-end hidden md:block md:w-[450px] lg:w-[500px]"
-					variants={textVariant(1.1)}
-				/>
-			</div>
-			<motion.img
-				src={underline}
-				alt="underlineImg"
-				className=" w-[20rem] md:w-fit absolute bottom-0 right-0"
-				variants={textVariant(1.2)}
-			/>
-			<motion.img
-				src={lineGauch}
-				alt="lineGauchImg"
-				className="absolute bottom-4 left-0"
-				variants={textVariant(1.3)}
-			/>
-		</motion.section>
+			</motion.section>
+		</>
 	);
 };
 
