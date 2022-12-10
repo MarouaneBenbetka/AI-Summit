@@ -138,3 +138,57 @@ export const faq = [
 		answer: "School Of AI Algeirs Is A Local Community Of Developers Students And Lovers Of Artificiel Intelligence In Algeria, At The Higher School Of Computer Science ( ESI Algeirs ).",
 	},
 ];
+
+// Agenda times and activity
+export const agenda = [
+	{
+		start: "08:00",
+		end: "09:00",
+		activity: "Check In",
+	},
+	{
+		start: "08:30",
+		end: "09:00",
+		activity: "Ice Breaking",
+	},
+	{
+		start: "09:00",
+		end: "09:30",
+		activity: "Opening Ceremony",
+	},
+	{
+		start: "09:30",
+		end: "10:30",
+		activity: "First Talk",
+	},
+	{
+		start: "10:30",
+		end: "12:00",
+		activity: "Second Talk",
+	},
+	{
+		start: "12:00",
+		end: "13:00",
+		activity: "Pause",
+	},
+	{
+		start: "13:00",
+		end: "14:30",
+		activity: "Third Talk",
+	},
+	{
+		start: "14:30",
+		end: "16:00",
+		activity: "Last Talk",
+	},
+	{
+		start: "16:00",
+		end: "16:30",
+		activity: "Pause Cafe",
+	},
+	{
+		start: "16:30",
+		end: "17:00",
+		activity: "Closing Ceremony",
+	},
+];
