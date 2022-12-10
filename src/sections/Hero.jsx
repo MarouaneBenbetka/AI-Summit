@@ -14,7 +14,7 @@ const Hero = () => {
 			<Particlesbg />
 			<motion.section
 				id="home"
-				className="px-8 sm:px-20 lg:px-[9vw] h-[89vh] min-h-[500px] mb-6 relative flex items-center content-center"
+				className="px-8 sm:px-20 lg:px-[9vw] h-[89vh] min-h-[500px]  relative flex items-center content-center"
 				variants={staggerContainer}
 				initial="hidden"
 				whileInView="show"

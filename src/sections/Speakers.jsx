@@ -3,7 +3,10 @@ import { speakers } from "../data/data.jsx";
 
 const Speakers = () => {
 	return (
-		<div className="py-14 px-8 sm:px-20 lg:px-[12vw]  flex flex-col font-libre-franklin">
+		<section
+			id="speakers"
+			className="py-14 px-8 sm:px-20 lg:px-[12vw] pt-[84px]  flex flex-col font-libre-franklin"
+		>
 			<h1 className="text-4xl font-bold text-center md:text-left">
 				Speakers
 			</h1>
@@ -12,7 +15,7 @@ const Speakers = () => {
 					<SpeakerCard speaker={speaker} />
 				))}
 			</div>
-		</div>
+		</section>
 	);
 };
 

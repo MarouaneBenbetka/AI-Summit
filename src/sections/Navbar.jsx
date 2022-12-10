@@ -62,7 +62,7 @@ const Navbar = () => {
 					)}
 
 					{navMobile && (
-						<div className="absolute flex flex-col z-20 items-center gap-4 bg-black px-8 py-4 text-center top-10 right-0">
+						<div className="absolute flex flex-col z-20 items-center gap-4 bg-zinc-800 rounded-lg px-8 py-4 text-center top-10 right-0">
 							<ul className="flex flex-col gap-10">
 								{navLinks.map((navLink, index) => (
 									<li key={index} className="relative">
