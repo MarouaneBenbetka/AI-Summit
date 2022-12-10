@@ -7,6 +7,7 @@ module.exports = {
 				red: "#CC2429",
 				blue: "#76CFCF",
 				dark: "#1B1E21",
+				"red-rgba": "rgba(204, 36, 41, 0.6) ",
 			},
 			fontFamily: {
 				"libre-franklin": ["Libre Franklin", "sans-serif"],

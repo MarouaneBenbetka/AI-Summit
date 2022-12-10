@@ -1,3 +1,6 @@
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { MdMail } from "react-icons/md";
+import { RiMapPin2Fill } from "react-icons/ri";
 import {
 	FaFacebook,
 	FaInstagram,
@@ -96,27 +99,49 @@ export const socials = [
 	{
 		name: "Facebook",
 		link: "https://www.facebook.com/SchoolofAIAlgiers/",
-		icon: <FaFacebook size={30}></FaFacebook>,
+		icon: <FaFacebook size={24}></FaFacebook>,
 	},
 	{
 		name: "Instagram",
 		link: "https://www.instagram.com/soai_algiers",
-		icon: <FaInstagram size={30}></FaInstagram>,
+		icon: <FaInstagram size={24}></FaInstagram>,
 	},
 	{
 		name: "Linkedin",
 		link: "https://www.linkedin.com/company/school-of-ai-algiers/",
-		icon: <FaLinkedin size={30}></FaLinkedin>,
+		icon: <FaLinkedin size={24}></FaLinkedin>,
 	},
 	{
 		name: "Twitter",
 		link: "https://twitter.com/soaialgiers",
-		icon: <FaTwitter size={30}></FaTwitter>,
+		icon: <FaTwitter size={24}></FaTwitter>,
 	},
 	{
 		name: "Youtube",
 		link: "https://m.youtube.com/channel/UChFa3XnZYZ94tkjfJ5CnPOA",
-		icon: <FaYoutube size={30}></FaYoutube>,
+		icon: <FaYoutube size={24}></FaYoutube>,
+	},
+];
+
+export const contactInfos = [
+	{
+		href: "https://www.google.com/maps/place/Ecole+Nationale+Sup%C3%A9rieure+d'Informatique+(Higher+School+for+Computer+Science)/@36.7050299,3.1739156,15z/data=!4m5!3m4!1s0x0:0x215c157a5406653c!8m2!3d36.7050299!4d3.1739156",
+		name: "Place",
+		icon: <RiMapPin2Fill size={20}></RiMapPin2Fill>,
+		content:
+			"Higher National School of Computer Science (ESI - Alger) Oued Smar, Alger",
+	},
+	{
+		href: "mailto:schoolofai.algiers@esi.dz",
+		name: "Mail",
+		icon: <MdMail size={20}></MdMail>,
+		content: "schoolofai.algiers@esi.dz",
+	},
+	{
+		href: "tel:+213666636252",
+		name: "Phone",
+		icon: <BsFillTelephoneFill size={20}></BsFillTelephoneFill>,
+		content: "+213 667 271 665",
 	},
 ];
 
