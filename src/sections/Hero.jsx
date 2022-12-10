@@ -20,7 +20,7 @@ const Hero = () => {
 				whileInView="show"
 				viewport={{ once: false, amount: 0.25 }}
 			>
-				<div className="flex items-center mb-14 w-full">
+				<div className="flex justify-center md:justify-start items-center mb-14 w-full">
 					<div>
 						<motion.h1
 							className=" text-[50px]  md:text-[60px] text-center md:text-left w-full lg:text-[80px] xl:text-[94px] font-extrabold font-libre-franklin"

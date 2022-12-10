@@ -5,7 +5,7 @@ import agenda_link from "../assets/link_agenda.svg";
 
 const Agenda = () => {
 	return (
-		<div className="py-14 px-20 lg:px-[12vw]">
+		<div id="agenda" className=" py-14 pt-20 px-20 lg:px-[12vw]">
 			<h1 className="text-4xl font-bold text-center md:text-left">
 				Agenda
 			</h1>

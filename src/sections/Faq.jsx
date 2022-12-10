@@ -4,7 +4,7 @@ const Faq = () => {
 	return (
 		<section
 			id="faq"
-			className="px-8 sm:px-20 lg:px-[12vw] min-h-[100vh] flex  justify-center flex-col"
+			className="px-8 sm:px-20 lg:px-[12vw] pt-20 min-h-[100vh] flex  justify-center flex-col"
 		>
 			<h1 className="py-5 text-4xl leading-10 font-extrabold text-center md:text-left">
 				FAQ
