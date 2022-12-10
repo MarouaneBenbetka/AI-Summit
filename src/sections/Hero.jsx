@@ -7,28 +7,14 @@ import logoLine from "../assets/logoLine.png";
 import { motion } from "framer-motion";
 import { staggerContainer, textVariant } from "../styles/motion";
 import Particlesbg from "../components/hero/particules";
-import { loadFull } from "tsparticles";
-import { useCallback } from "react";
 
 const Hero = () => {
-	const particlesInit = useCallback(async (engine) => {
-		console.log(engine);
-		// you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-		// this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-		// starting from v2 you can add only the features you need reducing the bundle size
-		await loadFull(engine);
-	}, []);
-
-	const particlesLoaded = useCallback(async (container) => {
-		await console.log(container);
-	}, []);
-
 	return (
 		<>
-			<Particlesbg init={particlesInit} loaded={particlesLoaded} />
+			<Particlesbg />
 			<motion.section
 				id="home"
-				className="px-8 sm:px-20 lg:px-[9vw] h-[89vh] min-h-[500px]  relative flex items-center content-center"
+				className="px-8 sm:px-20 lg:px-[9vw] h-[89vh] min-h-[500px] mb-6 relative flex items-center content-center"
 				variants={staggerContainer}
 				initial="hidden"
 				whileInView="show"
