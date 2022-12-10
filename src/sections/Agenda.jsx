@@ -68,11 +68,14 @@ const Agenda = () => {
 			<div className="flex md:hidden flex-col justify-center items-center">
 				{agenda.map((data, index) => (
 					<>
-						<div key={index} className="text-[18px] my-2">
-							<span className="text-blue ">
+						<div
+							key={index}
+							className="text-[18px] my-2 flex flex-col items-center justify-center"
+						>
+							<span className="text-blue block">
 								{data.start} - {data.end}
-							</span>{" "}
-							: {data.activity}
+							</span>
+							<p>{data.activity}</p>
 						</div>
 						<img
 							src={agenda_link}
