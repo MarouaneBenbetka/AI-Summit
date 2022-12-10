@@ -4,6 +4,7 @@ import {
 	About,
 	Agenda,
 	Speakers,
+	Faq,
 	Footer,
 } from "./sections/index";
 
@@ -17,6 +18,7 @@ function App() {
 			<About />
 			<Speakers />
 			<Agenda />
+			<Faq />
 			<Footer />
 		</div>
 	);

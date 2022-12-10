@@ -119,3 +119,22 @@ export const socials = [
 		icon: <FaYoutube size={30}></FaYoutube>,
 	},
 ];
+
+export const faq = [
+	{
+		question: "What is artificial intelligence ?",
+		answer: "School Of AI Algeirs Is A Local Community Of Developers Students And Lovers Of Artificiel Intelligence In Algeria, At The Higher School Of Computer Science ( ESI Algeirs ).",
+	},
+	{
+		question: "What is artificial intelligence ?",
+		answer: "School Of AI Algeirs Is A Local Community Of Developers Students And Lovers Of Artificiel Intelligence In Algeria, At The Higher School Of Computer Science ( ESI Algeirs ).",
+	},
+	{
+		question: "What is artificial intelligence ?",
+		answer: "School Of AI Algeirs Is A Local Community Of Developers Students And Lovers Of Artificiel Intelligence In Algeria, At The Higher School Of Computer Science ( ESI Algeirs ).",
+	},
+	{
+		question: "What is artificial intelligence ?",
+		answer: "School Of AI Algeirs Is A Local Community Of Developers Students And Lovers Of Artificiel Intelligence In Algeria, At The Higher School Of Computer Science ( ESI Algeirs ).",
+	},
+];
