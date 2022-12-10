@@ -1,46 +1,35 @@
+import { faq } from "../data/data";
+
 const Faq = () => {
-	return <section  id="faq">
-		 <div className="w-full px-20 mx-auto mt-20 space-y-8   lg:max-w-2xl ">
-                <details className="p-4 rounded-lg cursor-pointer bg-[#F8F8F8]">
-                    <summary className="font-semibold text-gray-800">What is artificial intelligence ?</summary>
-                    <div className="mt-3">
-                        <p className="text-sm leading-6 text-gray-600">
-						School Of AI Algeirs Is A Local Community Of Developers Students And Lovers Of Artificiel Intelligence In Algeria, At The Higher School Of Computer Science ( ESI Algeirs ).
-					 </p>
-                    </div>
-                </details>
-                <details className="p-4 rounded-lg cursor-pointer bg-[#F8F8F8]">
-                    <summary className="font-semibold text-gray-800">
-					What is artificial intelligence ?
-                    </summary>
-                    <div className="mt-3">
-                        <p className="text-sm leading-6 text-gray-600">
-						School Of AI Algeirs Is A Local Community Of Developers Students And Lovers Of Artificiel Intelligence In Algeria, At The Higher School Of Computer Science ( ESI Algeirs ).
-                        </p>
-                    </div>
-                </details>
-                <details className="p-4 rounded-lg text-gray-800 cursor-pointer bg-[#F8F8F8]">
-                    <summary className="font-semibold">
-					What is artificial intelligence ?
-                    </summary>
-                    <div className="mt-3">
-                        <p className="text-sm leading-6 text-gray-600">
-						School Of AI Algeirs Is A Local Community Of Developers Students And Lovers Of Artificiel Intelligence In Algeria, At The Higher School Of Computer Science ( ESI Algeirs ).
-                        </p>
-                    </div>
-                </details>
-                <details className="p-4 rounded-lg text-gray-800 cursor-pointer bg-[#F8F8F8]">
-                    <summary className="font-semibold">
-					What is artificial intelligence ?
-                    </summary>
-                    <div className="mt-3">
-                        <p className="text-sm leading-6 text-gray-600">
-						School Of AI Algeirs Is A Local Community Of Developers Students And Lovers Of Artificiel Intelligence In Algeria, At The Higher School Of Computer Science ( ESI Algeirs ).
-                        </p>
-                    </div>
-                </details>
-            </div>
-	</section>;
+	return (
+		<section
+			id="faq"
+			className="px-8 sm:px-20 lg:px-[12vw] min-h-[100vh] flex  justify-center flex-col"
+		>
+			<h1 className="py-5 text-4xl leading-10 font-extrabold text-center md:text-left">
+				FAQ
+			</h1>
+			<div className="w-full px-8 md:px-20 mx-auto  space-y-8  flex items-center justify-center flex-col">
+				{faq.map((x, index) => (
+					<div
+						key={index}
+						className="w-[90vw] md:w-[80vw] lg:w-[60vw] p-[2px] rounded-lg cursor-pointer bg-gradient-to-t  from-blue to-red"
+					>
+						<details className="w-full h-full px-4 py-6 cursor-pointer bg-dark rounded-lg ">
+							<summary className="font-semibold text-white text-[20px]">
+								{x.question}
+							</summary>
+							<div className="mt-3">
+								<p className="text-sm leading-6 text-white">
+									{x.answer}
+								</p>
+							</div>
+						</details>
+					</div>
+				))}
+			</div>
+		</section>
+	);
 };
 
 export default Faq;
