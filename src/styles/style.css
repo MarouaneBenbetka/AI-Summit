@@ -4,25 +4,11 @@
 	background-color: #cc2429;
 	height: 3px;
 	width: 0;
-	left: 0;
+	left: 30%;
 	bottom: -10px;
 	transition: 0.3s;
 }
 
-.nav-link:hover {
-	color: white;
-}
 .nav-link:hover::after {
-	width: 100%;
-}
-
-.selected-link::after {
-	content: "";
-	position: absolute;
-	background-color: #cc2429;
-	height: 3px;
-	width: 100%;
-	left: 0;
-	bottom: -10px;
-	transition: 0.3s;
+	width: 40%;
 }

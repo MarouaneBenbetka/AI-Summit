@@ -1,13 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./src/**/*.{js,jsx,html}"],
+	content: [
+		"./src/**/*.{js,jsx,html}",
+		"node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
+	],
 	theme: {
 		extend: {
 			colors: {
 				red: "#CC2429",
 				blue: "#76CFCF",
 				dark: "#1B1E21",
-				"red-rgba": "rgba(204, 36, 41, 0.6) ",
+				"red-rgba": "rgba(204, 36, 41, 0.4) ",
 			},
 			fontFamily: {
 				"libre-franklin": ["Libre Franklin", "sans-serif"],
@@ -22,5 +25,5 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [],
+	plugins: [require("flowbite/plugin")],
 };
