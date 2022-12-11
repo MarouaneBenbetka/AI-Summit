@@ -51,7 +51,7 @@ const footer = () => {
 					</div>
 				</div>
 			</div>
-			<h5 className="bottom-0 pr-4 pb-8 text-center text-[16px] md:text-[20px] font-semibold">
+			<h5 className="bottom-0 px-2 pb-8 text-center text-[14px] md:text-[20px] font-semibold">
 				© 2022 School of AI - Algiers. All rights reserved.
 			</h5>
 		</footer>

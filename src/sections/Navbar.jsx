@@ -27,11 +27,7 @@ const Navbar = () => {
 	});
 
 	return (
-		<div
-			className={
-				"z-20 sticky top-0 " + (color ? "bg-dark" : "bg-transparent")
-			}
-		>
+		<div className={"z-20 sticky top-0 bg-dark "}>
 			<div className="flex justify-between items-center   sm:px-8  py-4 md:px-4 lg:px-8">
 				<div className="ml-4">
 					<img src={logo} alt="logoImg" className="w-[10rem]" />
