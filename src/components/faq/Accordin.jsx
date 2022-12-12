@@ -40,7 +40,7 @@ function Accordion(props) {
 						{props.title}
 					</h4>
 					<animated.div
-						className="transition ease-in-out delay-200 origin-center mb-2 "
+						className="transition ease-in-out  origin-center mb-2 "
 						style={iconAnimation}
 					>
 						<MdExpandMore
