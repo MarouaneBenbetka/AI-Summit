@@ -73,7 +73,7 @@ const Agenda = () => {
               <span className="text-blue block">
                 {data.start} - {data.end}
               </span>
-              <p>{data.activity}</p>
+              <p className="text-center">{data.activity}</p>
             </div>
             <img
               src={agenda_link}
