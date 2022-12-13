@@ -4,10 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
-::-webkit-scrollbar {
-	display: none;
+html {
+  scroll-behavior: smooth;
 }
 
-html {
-	scroll-behavior: smooth;
+body {
+  overflow: overlay;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1b1e21;
+  margin-top: 74px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cc2429;
 }
