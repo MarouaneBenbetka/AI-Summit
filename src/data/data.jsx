@@ -63,7 +63,7 @@ export const speakers = [
     name: "Imane Guellil",
     profession:
       "Data Science Researcher at Massachusetts Institute of Technology",
-    description: "QNLP: A New and Promising Way to Solve NLP Problems",
+    description: "Hate speech detection against women in the Arabic community",
     img: imane,
   },
   {
