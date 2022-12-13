@@ -17,6 +17,7 @@ import amine from "../assets/MohamedAmineMerzouk.jpg";
 import petruccione from "../assets/Petruccione.png";
 import tahaA from "../assets/TahaArbaoui.png";
 import tahaR from "../assets/taharouabah.png";
+import yousra from "../assets/yousrabouakba.jpg";
 
 export const navLinks = [
   {
@@ -103,6 +104,13 @@ export const speakers = [
     profession: "Founder and PI of Constantine Quantum Technologies",
     description: "Quantum Machine Learning?",
     img: tahaR,
+  },
+  {
+    id: 9,
+    name: "Yousra Bouakba",
+    profession: "Scientist in Natural Language Processing",
+    description: "QNLP: A New and Promising Way to Solve NLP Problems",
+    img: yousra,
   },
 ];
 
