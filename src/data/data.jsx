@@ -149,7 +149,7 @@ export const contactInfos = [
     name: "Place",
     icon: <RiMapPin2Fill size={20}></RiMapPin2Fill>,
     content:
-      "Higher National School of Computer Science (ESI - Alger) Oued Smar, Alger",
+      "Higher National School of Computer Science (ESI) Oued Smar, Algiers",
   },
   {
     href: "mailto:schoolofai.algiers@esi.dz",
@@ -167,24 +167,24 @@ export const contactInfos = [
 
 export const faq = [
   {
-    question: "What is artificial intelligence ?",
+    question: "When will AI Summit be ?",
     answer:
-      "School Of AI Algeirs Is A Local Community Of Developers Students And Lovers Of Artificiel Intelligence In Algeria, At The Higher School Of Computer Science ( ESI Algeirs ).",
+      "On Friday 16th December online and Saturday 17th December in-person.",
   },
   {
-    question: "What is artificial intelligence ?",
+    question: "Where will it take place ?",
     answer:
-      "School Of AI Algeirs Is A Local Community Of Developers Students And Lovers Of Artificiel Intelligence In Algeria, At The Higher School Of Computer Science ( ESI Algeirs ).",
+      "The in-person side of the event will take place at the Higher National School for Artificial Intelligence (ENSIA).",
   },
   {
-    question: "What is artificial intelligence ?",
+    question: "Who can participate ?",
     answer:
-      "School Of AI Algeirs Is A Local Community Of Developers Students And Lovers Of Artificiel Intelligence In Algeria, At The Higher School Of Computer Science ( ESI Algeirs ).",
+      "Everyone is welcome to attend the AI Summit talks either on Friday or Saturday.",
   },
   {
-    question: "What is artificial intelligence ?",
+    question: "How can I register ?",
     answer:
-      "School Of AI Algeirs Is A Local Community Of Developers Students And Lovers Of Artificiel Intelligence In Algeria, At The Higher School Of Computer Science ( ESI Algeirs ).",
+      "Click on the register button on the top right corner of the website and fill the form.",
   },
 ];
 
