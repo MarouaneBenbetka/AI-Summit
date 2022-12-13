@@ -46,24 +46,23 @@ export const speakers = [
   {
     id: 1,
     name: "Azzeddine Chenine",
-    profession: "Research engineer and ML Google Developer Expert",
+    profession: "Research engineer and Google Developer Expert in ML",
     description: "Head First Reinforcement Learning",
     img: azzedine,
   },
   {
     id: 2,
     name: "El Kindi Rezig",
-    profession:
-      "Research scientist at the Computer Science and AI Laboratory (CSAIL) of MIT",
+    profession: "Research Scientist at Massachusetts Institute of Technology",
     description: "Data Science Development: Introduction to Data Preparation",
     img: elkindi,
   },
   {
     id: 3,
     name: "Imane Guellil",
-    profession: "Data Science Researcher",
-    description:
-      "Ara-Women-Hate: An Annotated Corpus Dedicated to Hate Speech Detection against Women in the Arabic Community",
+    profession:
+      "Data Science Researcher at Massachusetts Institute of Technology",
+    description: "QNLP: A New and Promising Way to Solve NLP Problems",
     img: imane,
   },
   {
@@ -71,13 +70,14 @@ export const speakers = [
     name: "Matthias Troyer",
     profession:
       "Technical Fellow and Corporate Vice President at Microsoft Quantum",
-    description: "x",
+    description: "Quantum Machine Learning?",
     img: matthias,
   },
   {
     id: 5,
     name: "Mohamed Amine Merzouk",
-    profession: "PhD candidate in Adversarial Machine Learning",
+    profession:
+      "PhD candidate in Adversarial Machine Learning in Polytechnique Montréal",
     description: "Adversarial Poisoning in Federated Learning",
     img: amine,
   },
@@ -86,7 +86,8 @@ export const speakers = [
     name: "Francesco Petruccione",
     profession:
       "Interim Director at National Institute for Theoretical and Computational Science",
-    description: "x",
+    description:
+      "Introduction to Quantum Computing and Quantum Machine Learning",
     img: petruccione,
   },
   {
@@ -100,7 +101,7 @@ export const speakers = [
     id: 8,
     name: "Taha Rouabah",
     profession: "Founder and PI of Constantine Quantum Technologies",
-    description: "x",
+    description: "Quantum Machine Learning?",
     img: tahaR,
   },
 ];
