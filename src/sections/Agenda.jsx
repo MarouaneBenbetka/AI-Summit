@@ -5,7 +5,7 @@ import agenda_link from "../assets/link_agenda.svg";
 
 const Agenda = () => {
   return (
-    <div id="agenda" className=" py-14 pt-20 px-20 lg:px-[12vw]">
+    <div id="agenda" className="py-14 pt-20 px-20 lg:px-[12vw]">
       <h1 className="text-4xl font-bold text-center md:text-left">Agenda</h1>
 
       <div className="flex items-center gap-0 ">
@@ -19,7 +19,7 @@ const Agenda = () => {
       </div>
 
       <div className="hidden md:flex justify-center ">
-        <div className="flex flex-col justify-start mt-2 lg:w-[400px]">
+        <div className="flex flex-col justify-start mt-2 lg:w-[500px]">
           {agenda.map((data, index) => {
             if (index % 2 === 0) {
               return (
@@ -28,9 +28,9 @@ const Agenda = () => {
                   className="ml-auto my-6 lg:my-8 text-[18px] lg:text-[22px] text-right"
                 >
                   <span className="text-blue ">
-                    {data.start} - {data.end}
+                    {data.start} - {data.end} :
                   </span>{" "}
-                  : {data.activity}
+                  {data.activity}
                 </div>
               );
             }
@@ -53,9 +53,9 @@ const Agenda = () => {
                   className="my-6 lg:my-8 text-[18px] lg:text-[20px] text-left"
                 >
                   <span className="text-blue">
-                    {data.start} - {data.end}
+                    {data.start} - {data.end} :
                   </span>{" "}
-                  : {data.activity}
+                  <span>{data.activity}</span>
                 </div>
               );
             }

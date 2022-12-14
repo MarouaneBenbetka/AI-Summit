@@ -71,7 +71,7 @@ export const speakers = [
     name: "Matthias Troyer",
     profession:
       "Technical Fellow and Corporate Vice President at Microsoft Quantum",
-    description: "Quantum Machine Learning?",
+    description: "...",
     img: matthias,
   },
   {
@@ -100,17 +100,17 @@ export const speakers = [
   },
   {
     id: 8,
-    name: "Taha Rouabah",
-    profession: "Founder and PI of Constantine Quantum Technologies",
-    description: "Quantum Machine Learning?",
-    img: tahaR,
-  },
-  {
-    id: 9,
     name: "Yousra Bouakba",
     profession: "Scientist in Natural Language Processing",
     description: "QNLP: A New and Promising Way to Solve NLP Problems",
     img: yousra,
+  },
+  {
+    id: 9,
+    name: "Taha Rouabah",
+    profession: "Founder and PI of Constantine Quantum Technologies",
+    description: "Quantum Machine Learning animator",
+    img: tahaR,
   },
 ];
 
@@ -179,7 +179,7 @@ export const faq = [
   {
     question: "Who can participate ?",
     answer:
-      "Everyone is welcome to attend the AI Summit talks either on Friday or Saturday.",
+      "Everyone is welcome to attend the AI Summit talks either on Friday or Saturday or both.",
   },
   {
     question: "How can I register ?",
@@ -196,47 +196,47 @@ export const agenda = [
     activity: "Check In",
   },
   {
-    start: "08:30",
-    end: "09:00",
-    activity: "Ice Breaking",
-  },
-  {
     start: "09:00",
     end: "09:30",
     activity: "Opening Ceremony",
   },
   {
-    start: "09:30",
-    end: "10:30",
-    activity: "First Talk",
+    start: "10:00",
+    end: "11:00",
+    activity: "Talk with Francesco Petruccione",
   },
   {
-    start: "10:30",
+    start: "11:00",
     end: "12:00",
-    activity: "Second Talk",
+    activity: "Talk with Matthias Troyer",
   },
   {
     start: "12:00",
-    end: "13:00",
-    activity: "Pause",
+    end: "13:15",
+    activity: "Break",
   },
   {
-    start: "13:00",
-    end: "14:30",
-    activity: "Third Talk",
+    start: "13:15",
+    end: "14:15",
+    activity: "Talk with Taha Arbaoui",
   },
   {
     start: "14:30",
-    end: "16:00",
-    activity: "Last Talk",
+    end: "15:30",
+    activity: "Talk with El Kindi Rezig ",
   },
   {
-    start: "16:00",
+    start: "15:30",
     end: "16:30",
-    activity: "Pause Cafe",
+    activity: "Talk with Yousra Bouakba",
   },
   {
     start: "16:30",
+    end: "16:45",
+    activity: "Coffee Break",
+  },
+  {
+    start: "16:45",
     end: "17:00",
     activity: "Closing Ceremony",
   },
