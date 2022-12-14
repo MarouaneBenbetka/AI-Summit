@@ -16,7 +16,7 @@ const About = () => {
           img_div={<img src={soai_logo} className={`mb-4 mt-6 w-72`} />}
         />
         <About_element
-          paragraph="AI Summit is an event organized by SOAI. It's a series of conferences about the advancement of Artificial Intelligence where we get to discuss about the latest research papers in AI."
+          paragraph="AI Summit is a 2 days event organized by SOAI. It's a series of conferences about the advancement of Artificial Intelligence where we get to discuss about the latest research papers in AI."
           img_div={<img src={Ai_sumit_logo} className={`mb-4 mt-12 w-32`} />}
         />
       </div>
