@@ -13,11 +13,11 @@ const About = () => {
       <div className="md:flex space-x-0 md:space-x-7 md:space-y-0 space-y-7">
         <About_element
           paragraph="School of AI Algiers or SOAI is a local community of developers, students and Artificial Intelligence lovers in Algeria, located at the Higher School of Computer Science (ESI Algiers). "
-          img_div={<img src={soai_logo} className={`mb-4 mt-6 w-72`} />}
+          img_div={<img src={soai_logo} className="mb-4 mt-6 w-72" />}
         />
         <About_element
           paragraph="AI Summit is a 2 days event organized by SOAI. It's a series of conferences about the advancement of Artificial Intelligence where we get to discuss about the latest research papers in AI."
-          img_div={<img src={Ai_sumit_logo} className={`mb-4 mt-12 w-32`} />}
+          img_div={<img src={Ai_sumit_logo} className="mb-4 mt-12 w-32" />}
         />
       </div>
     </section>

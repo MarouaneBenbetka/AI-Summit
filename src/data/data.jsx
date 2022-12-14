@@ -18,6 +18,8 @@ import petruccione from "../assets/Petruccione.png";
 import tahaA from "../assets/TahaArbaoui.png";
 import tahaR from "../assets/taharouabah.png";
 import yousra from "../assets/yousrabouakba.jpg";
+import younes from "../assets/YounesBouhdjar.jpg";
+import hadjer from "../assets/Hadjer.jpg";
 
 export const navLinks = [
   {
@@ -71,7 +73,7 @@ export const speakers = [
     name: "Matthias Troyer",
     profession:
       "Technical Fellow and Corporate Vice President at Microsoft Quantum",
-    description: "...",
+    description: "Quantum Machine Learning",
     img: matthias,
   },
   {
@@ -107,6 +109,21 @@ export const speakers = [
   },
   {
     id: 9,
+    name: "Younes Bouhdjar",
+    profession: "Doctoral Researcher at Jülich research center, Germany",
+    description:
+      "The neuronal mechanisms of sequence processing in biological networks",
+    img: younes,
+  },
+  {
+    id: 10,
+    name: "Hadjer Benmeziane",
+    profession: "PhD Student at UPHF and IBM Research Intern",
+    description: "A tale of foundation models and tiny hardware",
+    img: hadjer,
+  },
+  {
+    id: 11,
     name: "Taha Rouabah",
     profession: "Founder and PI of Constantine Quantum Technologies",
     description: "Quantum Machine Learning animator",
