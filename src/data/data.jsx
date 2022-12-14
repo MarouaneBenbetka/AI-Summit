@@ -189,7 +189,7 @@ export const faq = [
 ];
 
 // Agenda times and activity
-export const agenda = [
+export const agendaSat = [
   {
     start: "08:00",
     end: "09:00",
@@ -239,5 +239,27 @@ export const agenda = [
     start: "16:45",
     end: "17:00",
     activity: "Closing Ceremony",
+  },
+];
+export const agendaFri = [
+  {
+    start: "15:30",
+    end: "16:30",
+    activity: "Talk with Mohamed Amine Merzouk",
+  },
+  {
+    start: "16:45",
+    end: "17:45",
+    activity: "...",
+  },
+  {
+    start: "18:15",
+    end: "19:15",
+    activity: "Talk with Azzeddine Chenine",
+  },
+  {
+    start: "19:30",
+    end: "20:30",
+    activity: "Talk with Imane Guellil",
   },
 ];
