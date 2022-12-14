@@ -27,10 +27,12 @@ const Navbar = () => {
   });
 
   return (
-    <div className={"z-20 sticky top-0 bg-dark "}>
+    <div className={"z-20 sticky top-0 bg-dark"}>
       <div className="flex justify-between items-center   sm:px-8  py-4 md:px-4 lg:px-8">
         <div className="ml-4">
-          <img src={logo} alt="logoImg" className="w-[10rem]" />
+          <a href="#" className="text-[18px]">
+            <img src={logo} alt="logoImg" className="w-[10rem]" />
+          </a>
         </div>
         <ul className="hidden md:flex items-center gap-2">
           {navLinks.map((navLink, index) => (
@@ -43,7 +45,7 @@ const Navbar = () => {
             >
               <a
                 href={index === 0 ? "#" : `#${navLink.id}`}
-                className={" text-[18px] s"}
+                className="text-[18px]"
               >
                 {navLink.title}
               </a>
