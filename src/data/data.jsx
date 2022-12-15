@@ -110,7 +110,7 @@ export const speakers = [
   },
   {
     id: 9,
-    name: "Noha Nekmich",
+    name: "Noha Nekamiche",
     profession:
       "Graduate student from ESI,Ex-Vice present of School of AI Algiers",
     description: "Data augmentation using generative models",
@@ -235,7 +235,7 @@ export const agendaSatP = [
   {
     start: "09:45",
     end: "10:45",
-    activity: "Talk with Noha Nekmich",
+    activity: "Talk with Noha Nekamiche",
   },
   {
     start: "11:00",
