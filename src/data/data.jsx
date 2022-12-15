@@ -68,14 +68,14 @@ export const speakers = [
     description: "Hate speech detection against women in the Arabic community",
     img: imane,
   },
-  {
-    id: 4,
-    name: "Matthias Troyer",
-    profession:
-      "Technical Fellow and Corporate Vice President at Microsoft Quantum",
-    description: "Quantum Machine Learning",
-    img: matthias,
-  },
+  // {
+  //   id: 4,
+  //   name: "Matthias Troyer",
+  //   profession:
+  //     "Technical Fellow and Corporate Vice President at Microsoft Quantum",
+  //   description: "Quantum Machine Learning",
+  //   img: matthias,
+  // },
   {
     id: 5,
     name: "Mohamed Amine Merzouk",
@@ -84,15 +84,15 @@ export const speakers = [
     description: "Adversarial Poisoning in Federated Learning",
     img: amine,
   },
-  {
-    id: 6,
-    name: "Francesco Petruccione",
-    profession:
-      "Interim Director at National Institute for Theoretical and Computational Science",
-    description:
-      "Introduction to Quantum Computing and Quantum Machine Learning",
-    img: petruccione,
-  },
+  // {
+  //   id: 6,
+  //   name: "Francesco Petruccione",
+  //   profession:
+  //     "Interim Director at National Institute for Theoretical and Computational Science",
+  //   description:
+  //     "Introduction to Quantum Computing and Quantum Machine Learning",
+  //   img: petruccione,
+  // },
   {
     id: 7,
     name: "Taha Arbaoui",
@@ -126,7 +126,8 @@ export const speakers = [
     id: 11,
     name: "Taha Rouabah",
     profession: "Founder and PI of Constantine Quantum Technologies",
-    description: "Quantum Machine Learning animator",
+    description:
+      "Quantum Machine Learning with Francesco Petruccione and Matthias Troyer",
     img: tahaR,
   },
 ];
@@ -220,12 +221,12 @@ export const agendaSat = [
   {
     start: "10:00",
     end: "11:00",
-    activity: "Talk with Francesco Petruccione",
+    activity: "Talk with Taha Rouabah",
   },
   {
     start: "11:00",
     end: "12:00",
-    activity: "Talk with Matthias Troyer",
+    activity: "Talk with Taha Rouabah",
   },
   {
     start: "12:00",
@@ -267,7 +268,7 @@ export const agendaFri = [
   {
     start: "16:45",
     end: "17:45",
-    activity: "...",
+    activity: "Talk with Hadjer Benmeziane",
   },
   {
     start: "18:15",
@@ -278,5 +279,10 @@ export const agendaFri = [
     start: "19:30",
     end: "20:30",
     activity: "Talk with Imane Guellil",
+  },
+  {
+    start: "20:30",
+    end: "21:30",
+    activity: "Talk with Younes Bouhdjar",
   },
 ];
