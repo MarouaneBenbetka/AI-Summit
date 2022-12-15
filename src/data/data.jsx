@@ -20,6 +20,7 @@ import tahaR from "../assets/taharouabah.png";
 import yousra from "../assets/yousrabouakba.jpg";
 import younes from "../assets/YounesBouhdjar.jpg";
 import hadjer from "../assets/Hadjer.jpg";
+import noha from "../assets/noha.jpg";
 
 export const navLinks = [
   {
@@ -68,14 +69,14 @@ export const speakers = [
     description: "Hate speech detection against women in the Arabic community",
     img: imane,
   },
-  // {
-  //   id: 4,
-  //   name: "Matthias Troyer",
-  //   profession:
-  //     "Technical Fellow and Corporate Vice President at Microsoft Quantum",
-  //   description: "Quantum Machine Learning",
-  //   img: matthias,
-  // },
+  {
+    id: 4,
+    name: "Matthias Troyer",
+    profession:
+      "Technical Fellow and Corporate Vice President at Microsoft Quantum",
+    description: "Toward Practical Quantum Advantages",
+    img: matthias,
+  },
   {
     id: 5,
     name: "Mohamed Amine Merzouk",
@@ -84,15 +85,15 @@ export const speakers = [
     description: "Adversarial Poisoning in Federated Learning",
     img: amine,
   },
-  // {
-  //   id: 6,
-  //   name: "Francesco Petruccione",
-  //   profession:
-  //     "Interim Director at National Institute for Theoretical and Computational Science",
-  //   description:
-  //     "Introduction to Quantum Computing and Quantum Machine Learning",
-  //   img: petruccione,
-  // },
+  {
+    id: 6,
+    name: "Francesco Petruccione",
+    profession:
+      "Interim Director at National Institute for Theoretical and Computational Science",
+    description:
+      "Introduction to Quantum Computing and Quantum Machine Learning",
+    img: petruccione,
+  },
   {
     id: 7,
     name: "Taha Arbaoui",
@@ -109,11 +110,11 @@ export const speakers = [
   },
   {
     id: 9,
-    name: "Younes Bouhdjar",
-    profession: "Doctoral Researcher at Jülich research center, Germany",
-    description:
-      "The neuronal mechanisms of sequence processing in biological networks",
-    img: younes,
+    name: "Noha Nekmich",
+    profession:
+      "Graduate student from ESI,Ex-Vice present of School of AI Algiers",
+    description: "Data augmentation using generative models",
+    img: noha,
   },
   {
     id: 10,
@@ -129,6 +130,14 @@ export const speakers = [
     description:
       "Quantum Machine Learning with Francesco Petruccione and Matthias Troyer",
     img: tahaR,
+  },
+  {
+    id: 12,
+    name: "Younes Bouhdjar",
+    profession: "Doctoral Researcher at Jülich research center, Germany",
+    description:
+      "The neuronal mechanisms of sequence processing in biological networks",
+    img: younes,
   },
 ];
 
@@ -207,7 +216,7 @@ export const faq = [
 ];
 
 // Agenda times and activity
-export const agendaSat = [
+export const agendaSatP = [
   {
     start: "08:00",
     end: "09:00",
@@ -219,14 +228,19 @@ export const agendaSat = [
     activity: "Opening Ceremony",
   },
   {
-    start: "10:00",
-    end: "11:00",
-    activity: "Talk with Taha Rouabah",
+    start: "09:30",
+    end: "09:45",
+    activity: "Launching talks",
+  },
+  {
+    start: "09:45",
+    end: "10:45",
+    activity: "Talk with Noha Nekmich",
   },
   {
     start: "11:00",
     end: "12:00",
-    activity: "Talk with Taha Rouabah",
+    activity: "Talk with Taha Arbaoui",
   },
   {
     start: "12:00",
@@ -236,29 +250,38 @@ export const agendaSat = [
   {
     start: "13:15",
     end: "14:15",
-    activity: "Talk with Taha Arbaoui",
+    activity: "Talk with Yousra Bouakba",
   },
   {
     start: "14:30",
     end: "15:30",
-    activity: "Talk with El Kindi Rezig ",
+    activity: "Talk with El Kindi Rezig",
   },
   {
     start: "15:30",
-    end: "16:30",
-    activity: "Talk with Yousra Bouakba",
-  },
-  {
-    start: "16:30",
-    end: "16:45",
+    end: "16:20",
     activity: "Coffee Break",
   },
   {
-    start: "16:45",
-    end: "17:00",
+    start: "16:20",
+    end: "16:45",
     activity: "Closing Ceremony",
   },
 ];
+
+export const agendaSatO = [
+  {
+    start: "10:00",
+    end: "11:00",
+    activity: "Talk with Taha Rouabah and Francesco Petruccione",
+  },
+  {
+    start: "11:00",
+    end: "12:00",
+    activity: "Talk with Taha Rouabah and Matthias Troyer",
+  },
+];
+
 export const agendaFri = [
   {
     start: "15:30",

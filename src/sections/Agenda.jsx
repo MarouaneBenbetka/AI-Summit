@@ -1,28 +1,29 @@
 import { BiTimeFive } from "react-icons/bi";
 import { useState } from "react";
 
-import AgendaSat from "../components/agenda/AgendaSat";
+import AgendaSatP from "../components/agenda/AgendaSatP";
+import AgendaSatO from "../components/agenda/AgendaSatO";
 import AgendaFri from "../components/agenda/AgendaFri";
 
 const Agenda = () => {
-  const [Friday, setFriday] = useState(false);
+  const [mode, setMode] = useState("satP");
   return (
     <div id="agenda" className="py-14 pt-20 px-20 lg:px-[12vw]">
       <div className="flex sm:justify-between flex-col items-center sm:flex-row">
         <h1 className="text-4xl font-bold text-center md:text-left">Agenda</h1>
         <div className="sm:space-x-3 flex flex-col sm:flex-row items-center gap-y-3 my-3">
           <button
-            onClick={() => setFriday(true)}
+            onClick={() => setMode("fri")}
             className={`${
-              Friday ? "bg-red" : "bg-red-rgba"
+              mode == "fri" ? "bg-red" : "bg-red-rgba"
             } ' px-5 hover:bg-red py-2 rounded-xl text-lg sm:text-2xl font-medium'`}
           >
             Friday
           </button>
           <button
-            onClick={() => setFriday(false)}
+            onClick={() => setMode("satP")}
             className={`${
-              !Friday ? "bg-red" : "bg-red-rgba"
+              mode != "fri" ? "bg-red" : "bg-red-rgba"
             } ' px-5 hover:bg-red py-2 rounded-xl text-lg sm:text-2xl font-medium'`}
           >
             Saturday
@@ -38,7 +39,13 @@ const Agenda = () => {
         />
         <div className="h-1 bg-red-rgba w-full" />
       </div>
-      {Friday ? <AgendaFri /> : <AgendaSat />}
+      {mode == "fri" ? (
+        <AgendaFri />
+      ) : mode == "satP" ? (
+        <AgendaSatP mode={mode} setMode={setMode} />
+      ) : (
+        <AgendaSatO mode={mode} setMode={setMode} />
+      )}
 
       <div className="h-1 bg-red-rgba w-full" />
     </div>

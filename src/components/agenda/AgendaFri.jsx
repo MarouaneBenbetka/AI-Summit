@@ -1,4 +1,3 @@
-import agenda_neurons from "../../assets/agenda_neurons.svg";
 import agenda_link from "../../assets/link_agenda.svg";
 import { agendaFri } from "../../data/data";
 
@@ -9,7 +8,7 @@ export default function AgendaFri() {
         <div className="text-4xl text-center text-blue font-bold">
           Friday 16th
         </div>
-        <div className="flex flex-col space-y-1">
+        <div className="flex flex-col space-y-1 mt-3">
           <div className="text-2xl">Online</div>
           <div className="w-full bg-blue h-0.5 rounded-full" />
         </div>
