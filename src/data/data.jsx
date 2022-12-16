@@ -98,7 +98,7 @@ export const speakers = [
     id: 7,
     name: "Taha Arbaoui",
     profession: "Associate Professor at University of Technology of Troyes",
-    description: "Optimisation and Machine Learning",
+    description: "Learning-based parameter tuning for scheduling problems",
     img: tahaA,
   },
   {
