@@ -273,12 +273,12 @@ export const agendaSatO = [
   {
     start: "10:00",
     end: "11:00",
-    activity: "Talk with Taha Rouabah and Francesco Petruccione",
+    activity: "Talk with Francesco Petruccione and Taha Rouabah",
   },
   {
-    start: "11:00",
-    end: "12:00",
-    activity: "Talk with Taha Rouabah and Matthias Troyer",
+    start: "13:00",
+    end: "14:00",
+    activity: "Talk with Matthias Troyer and Taha Rouabah",
   },
 ];
 
