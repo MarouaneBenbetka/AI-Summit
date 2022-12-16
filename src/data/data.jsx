@@ -196,7 +196,7 @@ export const faq = [
   {
     question: "When will AI Summit be ?",
     answer:
-      "On Friday 16th December online and Saturday 17th December in-person.",
+      "On Friday 16th December online and Saturday 17th December both online and in-person.",
   },
   {
     question: "Where will it take place ?",
